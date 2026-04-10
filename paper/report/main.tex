@@ -43,6 +43,13 @@
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
 
+\fancypagestyle{titlepagestyle}{%
+  \fancyhf{}%
+  \fancyhead[L]{\small\textit{Cognitive Bias Vulnerability in Cyber Context}}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
+
 \DeclareCaptionLabelSeparator{apasep}{\\}
 \captionsetup{
   font=small,
@@ -83,7 +90,7 @@
 \emergencystretch=2em
 
 \begin{titlepage}
-\thispagestyle{empty}
+\thispagestyle{titlepagestyle}
 \vspace*{1.4cm}
 \begin{center}
 {\fontsize{18}{22}\selectfont\bfseries Cognitive Bias Vulnerability Across Emotional States\\[2pt] in Cyber-Relevant Decision Contexts\par}

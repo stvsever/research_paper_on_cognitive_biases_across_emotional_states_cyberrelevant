@@ -46,7 +46,7 @@ The two figures below capture the structure of the taxonomy and the core vulnera
 
 ---
 
-**Figure 3 — Cluster-by-family mean ECBSS heatmap** *(answers RQ1 & RQ3)*
+**Figure 3 — Cluster-by-family mean ECBSS heatmap**
 
 ![Cluster-by-family ECBSS heatmap](paper/assets/figures/fig3_ecbss_heatmap.png)
 
