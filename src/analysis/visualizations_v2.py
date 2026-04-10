@@ -655,7 +655,7 @@ def fig3_ecbss_heatmap(
     fig = plt.figure(figsize=(12.0, 7.0))
     gs = gridspec.GridSpec(
         4, 2, figure=fig,
-        height_ratios=[0.18, 1.0, 0.16, 0.028],
+        height_ratios=[0.18, 1.0, 0.16, 0.055],
         width_ratios=[1.0, 0.18],
         left=0.12, right=0.96, top=0.96, bottom=0.16,
         hspace=0.0, wspace=0.0,
