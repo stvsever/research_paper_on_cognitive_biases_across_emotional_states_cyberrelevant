@@ -654,17 +654,17 @@ def fig3_ecbss_heatmap(
 
     fig = plt.figure(figsize=(12.0, 7.0))
     gs = gridspec.GridSpec(
-        4, 2, figure=fig,
-        height_ratios=[0.18, 1.0, 0.16, 0.055],
+        3, 2, figure=fig,
+        height_ratios=[0.18, 1.0, 0.16],
         width_ratios=[1.0, 0.18],
-        left=0.12, right=0.96, top=0.96, bottom=0.16,
+        left=0.12, right=0.96, top=0.96, bottom=0.26,
         hspace=0.0, wspace=0.0,
     )
 
     ax_dend_top = fig.add_subplot(gs[0, 0])
     ax_heat = fig.add_subplot(gs[1, 0])
     ax_dend_right = fig.add_subplot(gs[1, 1])
-    ax_cbar = fig.add_subplot(gs[3, 0])
+    ax_cbar = fig.add_axes([0.12, 0.265, 0.712, 0.025])
 
     col_dist = pdist(heat_data.T.values, metric="euclidean")
     Z_col = optimal_leaf_ordering(linkage(col_dist, method="ward"), col_dist)
@@ -761,7 +761,6 @@ def fig3_ecbss_heatmap(
     cbar = fig.colorbar(im, cax=ax_cbar, orientation="horizontal")
     cbar.set_label("Mean ECBSS  (Emotion-Conditioned Bias Shift Score)", fontsize=7.2)
     cbar.ax.tick_params(labelsize=6.5)
-    ax_cbar.set_aspect('auto')
 
     # Ensure dendrograms align flush with heatmap edges
     ax_dend_top.set_xlim(-3.8, n_cols * 10)
