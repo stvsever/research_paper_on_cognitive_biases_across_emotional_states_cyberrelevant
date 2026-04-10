@@ -169,6 +169,20 @@ FAMILY_ABBR = {
     "affective_evaluation_and_mood_congruent_judgment_biases": "Aff",
 }
 
+FAMILY_FULL_LABEL = {
+    "attention_salience_and_signal_detection_biases": "Attention &\nSalience",
+    "trust_source_credibility_and_truth_judgment_biases": "Trust &\nCredibility",
+    "evidence_search_hypothesis_testing_and_belief_updating_biases": "Evidence &\nBelief",
+    "memory_familiarity_and_source_monitoring_biases": "Memory &\nSource",
+    "risk_probability_uncertainty_and_outcome_valuation_biases": "Risk &\nProbability",
+    "temporal_choice_default_action_and_commitment_biases": "Temporal &\nCommitment",
+    "social_influence_authority_affiliation_and_identity_biases": "Social &\nAuthority",
+    "self_assessment_attribution_and_metacognitive_biases": "Self-\nAssessment",
+    "interface_choice_architecture_automation_and_warning_response_biases": "Interface &\nAutomation",
+    "privacy_disclosure_and_self_presentation_biases": "Privacy &\nDisclosure",
+    "affective_evaluation_and_mood_congruent_judgment_biases": "Affect &\nMood",
+}
+
 DIM_LABELS = {
     "V": "Valence",
     "A": "Arousal",
@@ -638,12 +652,12 @@ def fig3_ecbss_heatmap(
     heat_data = cluster_ecbss.loc[cluster_ids, families].copy()
     row_labels = [CLUSTER_LABELS.get(cid, f"C{cid}") for cid in cluster_ids]
 
-    fig = plt.figure(figsize=(12.0, 6.6))
+    fig = plt.figure(figsize=(12.0, 7.0))
     gs = gridspec.GridSpec(
         4, 2, figure=fig,
-        height_ratios=[0.18, 1.0, 0.12, 0.028],
+        height_ratios=[0.18, 1.0, 0.16, 0.028],
         width_ratios=[1.0, 0.18],
-        left=0.12, right=0.96, top=0.96, bottom=0.12,
+        left=0.12, right=0.96, top=0.96, bottom=0.20,
         hspace=0.0, wspace=0.0,
     )
 
@@ -679,7 +693,7 @@ def fig3_ecbss_heatmap(
     ordered_rows = [row_labels[i] for i in row_order_idx]
     ordered_row_ids = [cluster_ids[i] for i in row_order_idx]
     ordered_families = [families[i] for i in col_order_idx]
-    ordered_cols = [FAMILY_ABBR[ordered_families[i]] for i in range(len(ordered_families))]
+    ordered_cols = [FAMILY_FULL_LABEL[ordered_families[i]] for i in range(len(ordered_families))]
 
     n_rows, n_cols = ordered.shape
     x_centers = np.arange(n_cols) * 10 + 5
@@ -723,7 +737,7 @@ def fig3_ecbss_heatmap(
 
     ax_heat.set_xlim(-3.8, n_cols * 10)
     ax_heat.set_xticks(x_centers)
-    ax_heat.set_xticklabels(ordered_cols, rotation=30, ha="right", fontsize=7.7)
+    ax_heat.set_xticklabels(ordered_cols, rotation=45, ha="right", fontsize=7.4, multialignment="center")
     ax_heat.set_yticks(y_centers)
     ax_heat.set_yticklabels(ordered_rows, fontsize=9.0)
     ax_heat.tick_params(axis="x", pad=6)
@@ -739,7 +753,7 @@ def fig3_ecbss_heatmap(
     ax_dend_right.set_axis_off()
 
     # Align top dendrogram exactly to heatmap x range
-    ax_dend_top.set_xlim(0, n_cols * 10)
+    ax_dend_top.set_xlim(-3.8, n_cols * 10)
     ax_dend_top.margins(x=0, y=0)
     ax_dend_top.set_ylim(bottom=0)
     ax_dend_top.set_axis_off()
@@ -750,7 +764,7 @@ def fig3_ecbss_heatmap(
     ax_cbar.set_aspect('auto')
 
     # Ensure dendrograms align flush with heatmap edges
-    ax_dend_top.set_xlim(0, n_cols * 10)
+    ax_dend_top.set_xlim(-3.8, n_cols * 10)
     if len(heat_data) > 2:
         ax_dend_right.set_ylim(n_rows * 10, 0)  # match inverted heatmap y-axis
 
