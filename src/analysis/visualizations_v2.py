@@ -3567,8 +3567,8 @@ def figS10_emotion_profiles(
     ncols = 3
     nrows_A = int(np.ceil(n_clusters / ncols))
 
-    # Overall figure: Panel A takes top ~65%, Panel B and C share lower ~35%
-    fig = plt.figure(figsize=(18, 5.5 * nrows_A + 10))
+    # Overall figure: Panel A takes top ~70%, Panel B and C share lower ~30%
+    fig = plt.figure(figsize=(18, 5.5 * nrows_A + 6))
 
     _maybe_figtext(fig, 0.015, 0.997, "Figure S11", fontsize=10, fontweight="bold",
              ha="left", va="top", fontstyle="italic")
@@ -3576,9 +3576,9 @@ def figS10_emotion_profiles(
              "Within-Cluster ECBSS Profiles, Amplification Probabilities, and Cluster Rank Correlations",
              fontsize=10, fontweight="bold", ha="left", va="top")
 
-    total_height = 5.5 * nrows_A + 10
+    total_height = 5.5 * nrows_A + 6
     panel_A_frac = (5.5 * nrows_A) / total_height
-    panel_BC_frac = 11.0 / total_height
+    panel_BC_frac = 4.5 / total_height
 
     gs_main = gridspec.GridSpec(
         2, 1, figure=fig,
@@ -3736,11 +3736,14 @@ def figS10_emotion_profiles(
                   transform=ax_C.transAxes, fontsize=8)
         ax_C.axis("off")
 
-    fig.legend(handles=legend_handles_A, loc="lower center",
-               ncol=4, fontsize=6.5, frameon=False,
-               bbox_to_anchor=(0.50, 0.001),
+    # Place Panel A legend in the bottom-right of the Panel A area
+    _ax_A_pos = gs_main[0].get_position(fig)
+    fig.legend(handles=legend_handles_A, loc="lower right",
+               ncol=3, fontsize=6.5, frameon=True, framealpha=0.88,
+               bbox_to_anchor=(_ax_A_pos.x1, _ax_A_pos.y0 + 0.01),
+               bbox_transform=fig.transFigure,
                handlelength=1.0, handleheight=0.8,
-               borderpad=0.3, labelspacing=0.2, columnspacing=0.8)
+               borderpad=0.4, labelspacing=0.2, columnspacing=0.8)
 
     _maybe_figtext(fig, 0.015, 0.010,
              r"$\it{Note.}$ " +
