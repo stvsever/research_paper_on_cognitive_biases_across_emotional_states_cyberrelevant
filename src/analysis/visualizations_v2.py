@@ -657,7 +657,7 @@ def fig3_ecbss_heatmap(
         4, 2, figure=fig,
         height_ratios=[0.18, 1.0, 0.16, 0.028],
         width_ratios=[1.0, 0.18],
-        left=0.12, right=0.96, top=0.96, bottom=0.20,
+        left=0.12, right=0.96, top=0.96, bottom=0.16,
         hspace=0.0, wspace=0.0,
     )
 
@@ -737,7 +737,7 @@ def fig3_ecbss_heatmap(
 
     ax_heat.set_xlim(-3.8, n_cols * 10)
     ax_heat.set_xticks(x_centers)
-    ax_heat.set_xticklabels(ordered_cols, rotation=45, ha="right", fontsize=7.4, multialignment="center")
+    ax_heat.set_xticklabels(ordered_cols, rotation=0, ha="center", fontsize=7.4, multialignment="center")
     ax_heat.set_yticks(y_centers)
     ax_heat.set_yticklabels(ordered_rows, fontsize=9.0)
     ax_heat.tick_params(axis="x", pad=6)
