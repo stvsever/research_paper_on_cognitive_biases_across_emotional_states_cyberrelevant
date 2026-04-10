@@ -1,0 +1,410 @@
+{
+  "0": {
+    "affective_evaluation_and_mood_congruent_judgment_biases": {
+      "mean": 843.4375,
+      "ci_lower": 828.75,
+      "ci_upper": 859.390625,
+      "n": 16
+    },
+    "attention_salience_and_signal_detection_biases": {
+      "mean": 515.0,
+      "ci_lower": 317.390625,
+      "ci_upper": 689.375,
+      "n": 16
+    },
+    "evidence_search_hypothesis_testing_and_belief_updating_biases": {
+      "mean": 740.625,
+      "ci_lower": 676.859375,
+      "ci_upper": 791.25,
+      "n": 16
+    },
+    "interface_choice_architecture_automation_and_warning_response_biases": {
+      "mean": 553.125,
+      "ci_lower": 410.5625,
+      "ci_upper": 668.765625,
+      "n": 16
+    },
+    "memory_familiarity_and_source_monitoring_biases": {
+      "mean": 356.25,
+      "ci_lower": 155.578125,
+      "ci_upper": 525.0937499999999,
+      "n": 16
+    },
+    "privacy_disclosure_and_self_presentation_biases": {
+      "mean": 662.5,
+      "ci_lower": 581.234375,
+      "ci_upper": 743.171875,
+      "n": 16
+    },
+    "risk_probability_uncertainty_and_outcome_valuation_biases": {
+      "mean": 590.0,
+      "ci_lower": 440.609375,
+      "ci_upper": 678.75,
+      "n": 16
+    },
+    "self_assessment_attribution_and_metacognitive_biases": {
+      "mean": 793.125,
+      "ci_lower": 780.0,
+      "ci_upper": 806.25,
+      "n": 16
+    },
+    "social_influence_authority_affiliation_and_identity_biases": {
+      "mean": -379.375,
+      "ci_lower": -589.375,
+      "ci_upper": -113.68750000000006,
+      "n": 16
+    },
+    "temporal_choice_default_action_and_commitment_biases": {
+      "mean": 255.625,
+      "ci_lower": 16.093750000000007,
+      "ci_upper": 480.1562499999999,
+      "n": 16
+    },
+    "trust_source_credibility_and_truth_judgment_biases": {
+      "mean": -127.5,
+      "ci_lower": -393.859375,
+      "ci_upper": 174.375,
+      "n": 16
+    }
+  },
+  "1": {
+    "affective_evaluation_and_mood_congruent_judgment_biases": {
+      "mean": 698.8636363636364,
+      "ci_lower": 608.3333333333334,
+      "ci_upper": 778.6363636363636,
+      "n": 66
+    },
+    "attention_salience_and_signal_detection_biases": {
+      "mean": 628.1818181818181,
+      "ci_lower": 549.6780303030304,
+      "ci_upper": 687.594696969697,
+      "n": 66
+    },
+    "evidence_search_hypothesis_testing_and_belief_updating_biases": {
+      "mean": 459.92424242424244,
+      "ci_lower": 356.7765151515151,
+      "ci_upper": 553.5625,
+      "n": 66
+    },
+    "interface_choice_architecture_automation_and_warning_response_biases": {
+      "mean": 472.3484848484849,
+      "ci_lower": 355.1193181818182,
+      "ci_upper": 581.3977272727273,
+      "n": 66
+    },
+    "memory_familiarity_and_source_monitoring_biases": {
+      "mean": 446.1363636363636,
+      "ci_lower": 354.6780303030303,
+      "ci_upper": 535.625,
+      "n": 66
+    },
+    "privacy_disclosure_and_self_presentation_biases": {
+      "mean": 129.16666666666666,
+      "ci_lower": -17.435606060606062,
+      "ci_upper": 273.22537878787875,
+      "n": 66
+    },
+    "risk_probability_uncertainty_and_outcome_valuation_biases": {
+      "mean": 532.8787878787879,
+      "ci_lower": 440.1287878787879,
+      "ci_upper": 620.9886363636364,
+      "n": 66
+    },
+    "self_assessment_attribution_and_metacognitive_biases": {
+      "mean": -240.6060606060606,
+      "ci_lower": -357.4431818181818,
+      "ci_upper": -107.875,
+      "n": 66
+    },
+    "social_influence_authority_affiliation_and_identity_biases": {
+      "mean": 624.469696969697,
+      "ci_lower": 541.7803030303031,
+      "ci_upper": 696.530303030303,
+      "n": 66
+    },
+    "temporal_choice_default_action_and_commitment_biases": {
+      "mean": 578.939393939394,
+      "ci_lower": 490.5909090909091,
+      "ci_upper": 652.7310606060606,
+      "n": 66
+    },
+    "trust_source_credibility_and_truth_judgment_biases": {
+      "mean": 428.8636363636364,
+      "ci_lower": 314.8409090909091,
+      "ci_upper": 539.6723484848484,
+      "n": 66
+    }
+  },
+  "2": {
+    "affective_evaluation_and_mood_congruent_judgment_biases": {
+      "mean": 732.3404255319149,
+      "ci_lower": 668.0585106382979,
+      "ci_upper": 779.5851063829787,
+      "n": 47
+    },
+    "attention_salience_and_signal_detection_biases": {
+      "mean": 392.3404255319149,
+      "ci_lower": 272.5265957446809,
+      "ci_upper": 499.5851063829787,
+      "n": 47
+    },
+    "evidence_search_hypothesis_testing_and_belief_updating_biases": {
+      "mean": 284.6808510638298,
+      "ci_lower": 153.38297872340428,
+      "ci_upper": 405.57446808510633,
+      "n": 47
+    },
+    "interface_choice_architecture_automation_and_warning_response_biases": {
+      "mean": 314.6808510638298,
+      "ci_lower": 188.48404255319147,
+      "ci_upper": 434.9308510638298,
+      "n": 47
+    },
+    "memory_familiarity_and_source_monitoring_biases": {
+      "mean": 239.7872340425532,
+      "ci_lower": 119.12765957446808,
+      "ci_upper": 351.0691489361702,
+      "n": 47
+    },
+    "privacy_disclosure_and_self_presentation_biases": {
+      "mean": 225.10638297872342,
+      "ci_lower": 57.840425531914896,
+      "ci_upper": 398.29787234042556,
+      "n": 47
+    },
+    "risk_probability_uncertainty_and_outcome_valuation_biases": {
+      "mean": 353.6170212765957,
+      "ci_lower": 227.37234042553192,
+      "ci_upper": 465.75,
+      "n": 47
+    },
+    "self_assessment_attribution_and_metacognitive_biases": {
+      "mean": -32.765957446808514,
+      "ci_lower": -178.08510638297872,
+      "ci_upper": 119.18617021276592,
+      "n": 47
+    },
+    "social_influence_authority_affiliation_and_identity_biases": {
+      "mean": 361.17021276595744,
+      "ci_lower": 198.16755319148936,
+      "ci_upper": 523.4202127659573,
+      "n": 47
+    },
+    "temporal_choice_default_action_and_commitment_biases": {
+      "mean": 371.70212765957444,
+      "ci_lower": 242.30851063829786,
+      "ci_upper": 496.3989361702128,
+      "n": 47
+    },
+    "trust_source_credibility_and_truth_judgment_biases": {
+      "mean": 128.93617021276594,
+      "ci_lower": -35.11170212765957,
+      "ci_upper": 287.9202127659574,
+      "n": 47
+    }
+  },
+  "3": {
+    "affective_evaluation_and_mood_congruent_judgment_biases": {
+      "mean": 558.5294117647059,
+      "ci_lower": 385.29411764705884,
+      "ci_upper": 704.75,
+      "n": 34
+    },
+    "attention_salience_and_signal_detection_biases": {
+      "mean": 191.47058823529412,
+      "ci_lower": 24.080882352941178,
+      "ci_upper": 350.3382352941176,
+      "n": 34
+    },
+    "evidence_search_hypothesis_testing_and_belief_updating_biases": {
+      "mean": -51.470588235294116,
+      "ci_lower": -195.92647058823528,
+      "ci_upper": 95.90441176470586,
+      "n": 34
+    },
+    "interface_choice_architecture_automation_and_warning_response_biases": {
+      "mean": 225.44117647058823,
+      "ci_lower": 72.98529411764707,
+      "ci_upper": 387.4338235294117,
+      "n": 34
+    },
+    "memory_familiarity_and_source_monitoring_biases": {
+      "mean": 15.882352941176471,
+      "ci_lower": -127.1470588235294,
+      "ci_upper": 155.30147058823528,
+      "n": 34
+    },
+    "privacy_disclosure_and_self_presentation_biases": {
+      "mean": 159.85294117647058,
+      "ci_lower": -6.805147058823527,
+      "ci_upper": 338.09191176470586,
+      "n": 34
+    },
+    "risk_probability_uncertainty_and_outcome_valuation_biases": {
+      "mean": 79.41176470588235,
+      "ci_lower": -62.970588235294116,
+      "ci_upper": 230.61029411764704,
+      "n": 34
+    },
+    "self_assessment_attribution_and_metacognitive_biases": {
+      "mean": -381.47058823529414,
+      "ci_lower": -474.4117647058824,
+      "ci_upper": -260.8602941176471,
+      "n": 34
+    },
+    "social_influence_authority_affiliation_and_identity_biases": {
+      "mean": 98.82352941176471,
+      "ci_lower": -69.75,
+      "ci_upper": 262.3529411764706,
+      "n": 34
+    },
+    "temporal_choice_default_action_and_commitment_biases": {
+      "mean": 412.05882352941177,
+      "ci_lower": 272.3308823529412,
+      "ci_upper": 538.5367647058823,
+      "n": 34
+    },
+    "trust_source_credibility_and_truth_judgment_biases": {
+      "mean": -82.3529411764706,
+      "ci_lower": -230.34558823529412,
+      "ci_upper": 69.72794117647057,
+      "n": 34
+    }
+  },
+  "4": {
+    "affective_evaluation_and_mood_congruent_judgment_biases": {
+      "mean": 764.1891891891892,
+      "ci_lower": 680.125,
+      "ci_upper": 823.6554054054054,
+      "n": 37
+    },
+    "attention_salience_and_signal_detection_biases": {
+      "mean": 469.05405405405406,
+      "ci_lower": 342.804054054054,
+      "ci_upper": 572.5709459459459,
+      "n": 37
+    },
+    "evidence_search_hypothesis_testing_and_belief_updating_biases": {
+      "mean": 534.1891891891892,
+      "ci_lower": 438.18918918918916,
+      "ci_upper": 617.5675675675676,
+      "n": 37
+    },
+    "interface_choice_architecture_automation_and_warning_response_biases": {
+      "mean": 547.027027027027,
+      "ci_lower": 459.1756756756757,
+      "ci_upper": 623.2432432432432,
+      "n": 37
+    },
+    "memory_familiarity_and_source_monitoring_biases": {
+      "mean": 523.1081081081081,
+      "ci_lower": 454.4560810810811,
+      "ci_upper": 582.5810810810812,
+      "n": 37
+    },
+    "privacy_disclosure_and_self_presentation_biases": {
+      "mean": 697.1621621621622,
+      "ci_lower": 648.6418918918919,
+      "ci_upper": 741.9054054054054,
+      "n": 37
+    },
+    "risk_probability_uncertainty_and_outcome_valuation_biases": {
+      "mean": 648.6486486486486,
+      "ci_lower": 579.4256756756757,
+      "ci_upper": 707.858108108108,
+      "n": 37
+    },
+    "self_assessment_attribution_and_metacognitive_biases": {
+      "mean": 612.972972972973,
+      "ci_lower": 509.445945945946,
+      "ci_upper": 688.9324324324325,
+      "n": 37
+    },
+    "social_influence_authority_affiliation_and_identity_biases": {
+      "mean": 573.5135135135135,
+      "ci_lower": 484.5945945945946,
+      "ci_upper": 652.1891891891892,
+      "n": 37
+    },
+    "temporal_choice_default_action_and_commitment_biases": {
+      "mean": 391.6216216216216,
+      "ci_lower": 264.5743243243243,
+      "ci_upper": 510.03378378378375,
+      "n": 37
+    },
+    "trust_source_credibility_and_truth_judgment_biases": {
+      "mean": 638.6486486486486,
+      "ci_lower": 564.5675675675676,
+      "ci_upper": 701.3581081081081,
+      "n": 37
+    }
+  },
+  "5": {
+    "affective_evaluation_and_mood_congruent_judgment_biases": {
+      "mean": 558.4615384615385,
+      "ci_lower": 459.71153846153845,
+      "ci_upper": 648.9935897435897,
+      "n": 39
+    },
+    "attention_salience_and_signal_detection_biases": {
+      "mean": 178.71794871794873,
+      "ci_lower": 49.41666666666667,
+      "ci_upper": 290.55769230769226,
+      "n": 39
+    },
+    "evidence_search_hypothesis_testing_and_belief_updating_biases": {
+      "mean": 295.0,
+      "ci_lower": 200.1217948717949,
+      "ci_upper": 386.0320512820513,
+      "n": 39
+    },
+    "interface_choice_architecture_automation_and_warning_response_biases": {
+      "mean": 307.94871794871796,
+      "ci_lower": 211.2628205128205,
+      "ci_upper": 399.7564102564102,
+      "n": 39
+    },
+    "memory_familiarity_and_source_monitoring_biases": {
+      "mean": 364.4871794871795,
+      "ci_lower": 281.4871794871795,
+      "ci_upper": 438.85256410256414,
+      "n": 39
+    },
+    "privacy_disclosure_and_self_presentation_biases": {
+      "mean": 447.94871794871796,
+      "ci_lower": 352.05128205128204,
+      "ci_upper": 545.1346153846154,
+      "n": 39
+    },
+    "risk_probability_uncertainty_and_outcome_valuation_biases": {
+      "mean": 346.9230769230769,
+      "ci_lower": 250.50641025641028,
+      "ci_upper": 436.9230769230769,
+      "n": 39
+    },
+    "self_assessment_attribution_and_metacognitive_biases": {
+      "mean": 150.51282051282053,
+      "ci_lower": 35.083333333333336,
+      "ci_upper": 257.19871794871796,
+      "n": 39
+    },
+    "social_influence_authority_affiliation_and_identity_biases": {
+      "mean": 367.43589743589746,
+      "ci_lower": 253.83333333333331,
+      "ci_upper": 483.0769230769231,
+      "n": 39
+    },
+    "temporal_choice_default_action_and_commitment_biases": {
+      "mean": 154.87179487179486,
+      "ci_lower": 40.51282051282051,
+      "ci_upper": 271.57692307692304,
+      "n": 39
+    },
+    "trust_source_credibility_and_truth_judgment_biases": {
+      "mean": 457.43589743589746,
+      "ci_lower": 359.44230769230774,
+      "ci_upper": 537.9487179487179,
+      "n": 39
+    }
+  }
+}

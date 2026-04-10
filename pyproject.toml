@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cbias-emotion-workflow"
+version = "0.1.0"
+description = "Cognitive bias vulnerability across emotional states — PRISMA taxonomy, LLM scoring, and statistical analysis pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+	{ name = "Stijn Van Severen" }
+]
+keywords = ["cognitive-bias", "cybersecurity", "emotion", "LLM", "psychology"]
+dependencies = [
+	# Core data
+	"numpy>=2.0",
+	"pandas>=2.2",
+	# Visualisation
+	"matplotlib>=3.9",
+	"seaborn>=0.13",
+	# Machine learning / statistics
+	"scikit-learn>=1.5",
+	"scipy>=1.13",
+	"statsmodels>=0.14",
+	"umap-learn>=0.5",
+	# Utilities
+	"networkx>=3.3",
+	"tqdm>=4.65",
+	"joblib>=1.4",
+	# API / environment
+	"python-dotenv>=1.0.1",
+	"requests>=2.32",
+]
+
+[project.optional-dependencies]
+dev = [
+	"pytest>=8.0",
+	"ruff>=0.4",
+	"mypy>=1.10",
+]
+
+[project.scripts]
+cbias = "cbias.cli:main"
+
+[project.urls]
+Repository = "https://github.com/stvsever/research_paper_on_cognitive_biases_across_emotional_states_cyberrelevant"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["cbias*"]

@@ -1,0 +1,28 @@
+{
+  "family_key": "social_influence_authority_affiliation_and_identity_biases",
+  "cohen_d": 3.6054017452723546,
+  "mean_group": 822.0,
+  "mean_reference": -70.0,
+  "std_group": 38.34057902536163,
+  "std_reference": 347.778665245584,
+  "pooled_std": 247.40654801358835,
+  "n_group": 5,
+  "n_reference": 5,
+  "t_statistic": 5.700640697503426,
+  "t_p_value": 0.004349899289820866,
+  "interpretation": "very large",
+  "emotions_group": [
+    "afraid",
+    "panicked",
+    "alarmed",
+    "terrified",
+    "horrified"
+  ],
+  "reference_emotions": [
+    "calm",
+    "serene",
+    "content",
+    "peaceful",
+    "relaxed"
+  ]
+}

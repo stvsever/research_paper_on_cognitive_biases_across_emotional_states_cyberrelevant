@@ -1,0 +1,28 @@
+project:
+  name: cognitive-bias-vulnerability
+  preregistration_path: src/protocol/osf/osf_preregistration.md
+  taxonomy_path: src/ontologies/taxonomy/taxonomy_cognitive_biases_cyberrelevant.json
+  emotion_lexicon_path: src/ontologies/emotions/emotional_states.txt
+
+runtime:
+  dry_run: true
+  log_level: INFO
+
+stages:
+  protocol_finalization: true
+  search_development: true
+  database_search: true
+  record_management: true
+  title_abstract_screening: true
+  full_text_eligibility: true
+  concept_extraction: true
+  synonym_consolidation: true
+  cyber_relevance_tagging: true
+  taxonomy_construction: true
+  emotion_lexicon_finalization: true
+  emotion_dimension_calibration: true
+  scenario_persona_prompt_calibration: true
+  llm_ensemble_scoring: true
+  robustness_sensitivity_network: true
+  confirmatory_output_freeze: true
+  manuscript_preparation: true

@@ -1,0 +1,89 @@
+{
+  "n_families": 11,
+  "n_clusters": 40,
+  "n_leaf_biases": 200,
+  "n_emotions_scored": 239,
+  "n_ecbss_pairs": 2629,
+  "pct_amplifying": 77.63408139977179,
+  "pct_attenuating": 22.365918600228223,
+  "pct_neutral": 0.0,
+  "validation_pearson_r": 0.32384328770778104,
+  "validation_spearman_r": 0.37190247636746365,
+  "n_emotion_clusters": 6,
+  "top_amplifying": [
+    {
+      "emotion": "hysterical",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 985
+    },
+    {
+      "emotion": "enraged",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "terrified",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "ecstatic",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "hysterical",
+      "family": "privacy_disclosure_and_self_presentation_biases",
+      "ecbss": 920
+    }
+  ],
+  "top_attenuating": [
+    {
+      "emotion": "betrayed",
+      "family": "trust_source_credibility_and_truth_judgment_biases",
+      "ecbss": -750
+    },
+    {
+      "emotion": "mistrustful",
+      "family": "trust_source_credibility_and_truth_judgment_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "mistrustful",
+      "family": "social_influence_authority_affiliation_and_identity_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "distrustful",
+      "family": "trust_source_credibility_and_truth_judgment_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "suspicious",
+      "family": "privacy_disclosure_and_self_presentation_biases",
+      "ecbss": -850
+    }
+  ],
+  "network_density": 0.45588235294117646,
+  "n_network_edges": 62,
+  "overall_regression": {
+    "params": {
+      "Intercept": 220.0820563352579,
+      "V": 275.08890773282616,
+      "A": 504.0981010819056,
+      "C": -542.294146311775,
+      "U": -357.12999206827686,
+      "S": -1.626640838741088,
+      "Group Var": 0.11827220874344302
+    },
+    "pvalues": {
+      "Intercept": 3.1521385585568024e-07,
+      "V": 3.397752277666776e-45,
+      "A": 2.4721706968156294e-130,
+      "C": 2.8543520823257256e-64,
+      "U": 1.8398415036214835e-56,
+      "S": 0.9253489819000833,
+      "Group Var": 0.02379814458403881
+    }
+  }
+}

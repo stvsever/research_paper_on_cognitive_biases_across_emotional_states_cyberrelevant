@@ -1,0 +1,65 @@
+{
+  "factor_analysis": {
+    "n_factors": 3,
+    "n_obs": 239
+  },
+  "canonical_correlation": {
+    "n_pairs": 239,
+    "n_x_vars": 5,
+    "n_y_vars": 11,
+    "n_canonical_pairs": 5
+  },
+  "bootstrap_cluster_means": {},
+  "silhouette_analysis": {
+    "optimal_k": 8
+  },
+  "permutation_test_regression": {
+    "n_permutations": 1000,
+    "n_obs": 239
+  },
+  "variance_decomposition": {
+    "grand_mean": 368.7599847850894,
+    "n_emotions": 239,
+    "n_families": 11
+  },
+  "cohen_d": {
+    "family_key": "social_influence_authority_affiliation_and_identity_biases",
+    "cohen_d": 3.6054017452723546,
+    "mean_group": 822.0,
+    "mean_reference": -70.0,
+    "std_group": 38.34057902536163,
+    "std_reference": 347.778665245584,
+    "pooled_std": 247.40654801358835,
+    "n_group": 5,
+    "n_reference": 5,
+    "t_statistic": 5.700640697503426,
+    "t_p_value": 0.004349899289820866,
+    "interpretation": "very large"
+  },
+  "pca_with_loadings": {
+    "n_components": 5,
+    "n_emotions": 239,
+    "biplot_scale": 1.5327707132594373
+  },
+  "icc_across_models": {
+    "icc2": 0.18842237660221153,
+    "icc3": 0.2664521988231519,
+    "icc2_ci_lower": 0.1607516823119847,
+    "icc2_ci_upper": 0.21631484424266104,
+    "icc3_ci_lower": 0.2305781042178366,
+    "icc3_ci_upper": 0.3016029449385844,
+    "n_raters": 2,
+    "n_subjects": 2629,
+    "interpretation": "poor",
+    "f_value": 1.7264753527873065,
+    "df1": 2628,
+    "df2": 2628,
+    "ms_rows": 180557.7865935927,
+    "ms_error": 104581.73428429855,
+    "ms_cols": 155324033.82443133,
+    "primary_path": "/Users/stijnvanseveren/PythonProjects/research_paper_on_cognitive_biases_across_emotional_states/src/review_stages/analysis_outputs/ecbss_direct.csv",
+    "analytical_path": "/Users/stijnvanseveren/PythonProjects/research_paper_on_cognitive_biases_across_emotional_states/src/review_stages/analysis_outputs/ecbss_analytical.csv",
+    "n_common_emotions": 239,
+    "n_common_families": 11
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "icc2": 0.18842237660221153,
+  "icc3": 0.2664521988231519,
+  "icc2_ci_lower": 0.1607516823119847,
+  "icc2_ci_upper": 0.21631484424266104,
+  "icc3_ci_lower": 0.2305781042178366,
+  "icc3_ci_upper": 0.3016029449385844,
+  "n_raters": 2,
+  "n_subjects": 2629,
+  "interpretation": "poor",
+  "f_value": 1.7264753527873065,
+  "df1": 2628,
+  "df2": 2628,
+  "ms_rows": 180557.7865935927,
+  "ms_error": 104581.73428429855,
+  "ms_cols": 155324033.82443133,
+  "primary_path": "/Users/stijnvanseveren/PythonProjects/research_paper_on_cognitive_biases_across_emotional_states/src/review_stages/analysis_outputs/ecbss_direct.csv",
+  "analytical_path": "/Users/stijnvanseveren/PythonProjects/research_paper_on_cognitive_biases_across_emotional_states/src/review_stages/analysis_outputs/ecbss_analytical.csv",
+  "n_common_emotions": 239,
+  "n_common_families": 11
+}

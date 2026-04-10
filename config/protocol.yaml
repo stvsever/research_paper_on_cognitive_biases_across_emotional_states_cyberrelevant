@@ -1,0 +1,21 @@
+registration:
+  id: osf-preregistered
+  date: 2026-04-08
+  source: src/protocol/osf/osf_preregistration.md
+
+outcomes:
+  primary: ECBSS
+  scale_min: -1000
+  scale_max: 1000
+
+latent_dimensions:
+  - V
+  - A
+  - C
+  - U
+  - S
+
+reporting:
+  paper_main_tex: paper/report/main.tex
+  bibliography: paper/report/other/references.bib
+  generated_dir: paper/report/generated

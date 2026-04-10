@@ -1,0 +1,11 @@
+services:
+  cbias-workflow:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    env_file:
+      - ../.env
+    volumes:
+      - ../:/workspace
+    working_dir: /workspace
+    command: ["cbias", "run-all"]

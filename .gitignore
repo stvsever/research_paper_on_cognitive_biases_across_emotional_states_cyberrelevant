@@ -1,0 +1,50 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Environment / secrets (NEVER commit) ──────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.secret
+
+# ── LaTeX build artifacts ─────────────────────────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.xdv
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Project-specific tools ────────────────────────────────────────────────────
+.cargo-tools/
+.tools/
+
+# ── Large binary intermediates (keep CSVs/JSON for open science) ──────────────
+*.npy
+src/review_stages/analysis_outputs/ecbss_direct_raw.jsonl

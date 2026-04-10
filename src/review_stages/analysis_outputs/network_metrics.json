@@ -1,0 +1,115 @@
+{
+  "degree_centrality": {
+    "ec_0": 0.6875,
+    "ec_1": 0.6875,
+    "ec_2": 0.625,
+    "ec_3": 0.5,
+    "ec_4": 0.6875,
+    "ec_5": 0.6875,
+    "bf_affective_evaluation_and_mood_congruent_judgment_biases": 0.375,
+    "bf_attention_salience_and_signal_detection_biases": 0.375,
+    "bf_evidence_search_hypothesis_testing_and_belief_updating_biases": 0.3125,
+    "bf_interface_choice_architecture_automation_and_warning_response_biases": 0.375,
+    "bf_memory_familiarity_and_source_monitoring_biases": 0.3125,
+    "bf_privacy_disclosure_and_self_presentation_biases": 0.375,
+    "bf_risk_probability_uncertainty_and_outcome_valuation_biases": 0.3125,
+    "bf_self_assessment_attribution_and_metacognitive_biases": 0.3125,
+    "bf_social_influence_authority_affiliation_and_identity_biases": 0.375,
+    "bf_temporal_choice_default_action_and_commitment_biases": 0.375,
+    "bf_trust_source_credibility_and_truth_judgment_biases": 0.375
+  },
+  "betweenness_centrality": {
+    "ec_0": 0.008333333333333333,
+    "ec_1": 0.008333333333333333,
+    "ec_2": 0.15,
+    "ec_3": 0.275,
+    "ec_4": 0.0,
+    "ec_5": 0.19166666666666665,
+    "bf_affective_evaluation_and_mood_congruent_judgment_biases": 0.0,
+    "bf_attention_salience_and_signal_detection_biases": 0.025,
+    "bf_evidence_search_hypothesis_testing_and_belief_updating_biases": 0.0,
+    "bf_interface_choice_architecture_automation_and_warning_response_biases": 0.0,
+    "bf_memory_familiarity_and_source_monitoring_biases": 0.008333333333333333,
+    "bf_privacy_disclosure_and_self_presentation_biases": 0.058333333333333334,
+    "bf_risk_probability_uncertainty_and_outcome_valuation_biases": 0.0,
+    "bf_self_assessment_attribution_and_metacognitive_biases": 0.016666666666666666,
+    "bf_social_influence_authority_affiliation_and_identity_biases": 0.0,
+    "bf_temporal_choice_default_action_and_commitment_biases": 0.041666666666666664,
+    "bf_trust_source_credibility_and_truth_judgment_biases": 0.15
+  },
+  "n_components": 1,
+  "largest_component_size": 17,
+  "density": 0.45588235294117646,
+  "top_emotion_by_degree": [
+    [
+      "ec_0",
+      0.6875
+    ],
+    [
+      "ec_1",
+      0.6875
+    ],
+    [
+      "ec_4",
+      0.6875
+    ],
+    [
+      "ec_5",
+      0.6875
+    ],
+    [
+      "ec_2",
+      0.625
+    ],
+    [
+      "ec_3",
+      0.5
+    ]
+  ],
+  "top_bias_by_degree": [
+    [
+      "bf_affective_evaluation_and_mood_congruent_judgment_biases",
+      0.375
+    ],
+    [
+      "bf_attention_salience_and_signal_detection_biases",
+      0.375
+    ],
+    [
+      "bf_interface_choice_architecture_automation_and_warning_response_biases",
+      0.375
+    ],
+    [
+      "bf_privacy_disclosure_and_self_presentation_biases",
+      0.375
+    ],
+    [
+      "bf_social_influence_authority_affiliation_and_identity_biases",
+      0.375
+    ],
+    [
+      "bf_temporal_choice_default_action_and_commitment_biases",
+      0.375
+    ],
+    [
+      "bf_trust_source_credibility_and_truth_judgment_biases",
+      0.375
+    ],
+    [
+      "bf_evidence_search_hypothesis_testing_and_belief_updating_biases",
+      0.3125
+    ],
+    [
+      "bf_memory_familiarity_and_source_monitoring_biases",
+      0.3125
+    ],
+    [
+      "bf_risk_probability_uncertainty_and_outcome_valuation_biases",
+      0.3125
+    ]
+  ],
+  "mean_edge_weight": 429.05131798201893,
+  "max_edge_weight": 843.4375,
+  "n_amplifying_edges": 57,
+  "n_attenuating_edges": 5
+}

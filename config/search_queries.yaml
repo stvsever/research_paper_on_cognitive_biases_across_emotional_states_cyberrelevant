@@ -1,0 +1,23 @@
+queries:
+  core_conceptual_block: >-
+    ("cognitive bias*" OR "judgment bias*" OR "reasoning bias*" OR heuristic* OR
+    "systematic error*" OR "decision-making bias*") AND
+    (taxonomy OR taxonom* OR classif* OR hierarchy OR nomenclature OR review OR
+    overview OR inventory OR catalog*)
+
+  concept_expansion_block: >-
+    ("cognitive bias*" OR heuristic* OR "judgment bias*") AND
+    (definition OR mechanism OR typology OR distinction OR subtype OR synonym)
+
+  cyber_relevance_block: >-
+    ("cognitive bias*" OR heuristic* OR "judgment bias*") AND
+    (cybersecurity OR phishing OR "social engineering" OR misinformation OR trust OR
+    compliance OR urgency OR authority OR uncertainty OR verification OR disclosure OR credibility)
+
+databases:
+  - scopus
+  - web_of_science
+  - psycinfo
+  - pubmed
+  - acm_digital_library
+  - ieee_xplore

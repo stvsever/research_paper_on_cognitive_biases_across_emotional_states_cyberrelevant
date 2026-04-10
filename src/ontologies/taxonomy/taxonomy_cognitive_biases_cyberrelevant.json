@@ -1,0 +1,306 @@
+{
+  "cognitive_biases_in_cyber_relevant_contexts": {
+    "attention_salience_and_signal_detection_biases": {
+      "salience_prominence_and_vividness": {
+        "salience_bias": {},
+        "vividness_effect": {},
+        "picture_superiority_effect": {},
+        "von_restorff_effect": {},
+        "novelty_effect": {},
+        "prominence_effect": {}
+      },
+      "attentional_selection_under_load": {
+        "attentional_bias": {},
+        "inattentional_blindness": {},
+        "change_blindness": {},
+        "cognitive_tunneling": {},
+        "attentional_narrowing": {},
+        "divided_attention_effect": {},
+        "goal_shielding": {},
+        "vigilance_decrement": {}
+      },
+      "threat_and_warning_signal_processing": {
+        "negativity_bias": {},
+        "threat_superiority_effect": {},
+        "alarm_fatigue": {},
+        "warning_habituation": {},
+        "cry_wolf_effect": {},
+        "banner_blindness": {}
+      }
+    },
+    "trust_source_credibility_and_truth_judgment_biases": {
+      "source_credibility_shortcuts": {
+        "halo_effect": {},
+        "horn_effect": {},
+        "prestige_bias": {},
+        "reputation_heuristic": {},
+        "expertise_heuristic": {}
+      },
+      "familiarity_fluency_and_repetition": {
+        "truth_bias": {},
+        "illusory_truth_effect": {},
+        "fluency_heuristic": {},
+        "processing_fluency_effect": {},
+        "familiarity_heuristic": {},
+        "recognition_heuristic": {},
+        "mere_exposure_effect": {}
+      },
+      "first_impression_and_surface_inference": {
+        "first_impression_bias": {},
+        "primacy_effect": {}
+      }
+    },
+    "evidence_search_hypothesis_testing_and_belief_updating_biases": {
+      "confirmatory_processing": {
+        "confirmation_bias": {},
+        "myside_bias": {},
+        "belief_perseverance": {},
+        "motivated_reasoning": {},
+        "selective_exposure": {},
+        "selective_scrutiny": {},
+        "biased_assimilation": {},
+        "attitude_polarization": {}
+      },
+      "anchoring_and_framing": {
+        "anchoring_effect": {},
+        "insufficient_adjustment": {},
+        "framing_effect": {},
+        "attribute_substitution": {},
+        "attribute_framing": {},
+        "goal_framing": {}
+      },
+      "representativeness_and_diagnosticity_errors": {
+        "representativeness_heuristic": {},
+        "base_rate_neglect": {},
+        "conjunction_fallacy": {},
+        "disjunction_fallacy": {},
+        "law_of_small_numbers": {},
+        "insensitivity_to_sample_size": {},
+        "ratio_bias": {},
+        "denominator_neglect": {},
+        "regression_fallacy": {}
+      },
+      "causal_pattern_and_story_completion": {
+        "narrative_fallacy": {},
+        "apophenia": {},
+        "clustering_illusion": {},
+        "illusion_of_validity": {},
+        "proportionality_bias": {},
+        "intentionality_bias": {},
+        "teleological_bias": {},
+        "causal_oversimplification": {}
+      },
+      "updating_failures": {
+        "conservatism_bias": {},
+        "order_effect": {},
+        "recency_bias": {},
+        "continued_influence_effect": {},
+        "misinformation_effect": {},
+        "belief_echo_effect": {},
+        "premature_closure": {}
+      }
+    },
+    "memory_familiarity_and_source_monitoring_biases": {
+      "availability_and_retrievability": {
+        "availability_heuristic": {},
+        "availability_cascade": {},
+        "retrievability_bias": {}
+      },
+      "source_monitoring_and_attribution_errors": {
+        "source_monitoring_error": {},
+        "source_confusion": {},
+        "misattribution": {},
+        "false_attribution": {},
+        "cryptomnesia": {},
+        "sleeper_effect": {}
+      },
+      "reconstructive_memory_distortions": {
+        "hindsight_bias": {},
+        "consistency_bias": {},
+        "rosy_retrospection": {},
+        "telescoping_effect": {},
+        "peak_end_rule": {}
+      }
+    },
+    "risk_probability_uncertainty_and_outcome_valuation_biases": {
+      "reference_dependence_and_risk_attitude": {
+        "risk_aversion": {},
+        "loss_aversion": {},
+        "endowment_effect": {},
+        "status_quo_bias": {},
+        "omission_bias": {},
+        "reference_dependence": {}
+      },
+      "certainty_ambiguity_and_probability_weighting": {
+        "probability_neglect": {},
+        "certainty_effect": {},
+        "possibility_effect": {},
+        "pseudo_certainty_effect": {},
+        "zero_risk_bias": {},
+        "ambiguity_aversion": {},
+        "probability_weighting": {},
+        "scope_insensitivity": {},
+        "denominator_insensitivity": {}
+      },
+      "vulnerability_and_severity_estimation": {
+        "optimism_bias": {},
+        "unrealistic_optimism": {},
+        "normalcy_bias": {},
+        "invulnerability_bias": {},
+        "pessimism_bias": {},
+        "dread_risk_effect": {}
+      },
+      "randomness_frequency_and_small_sample_inference": {
+        "gambler_fallacy": {},
+        "hot_hand_fallacy": {},
+        "base_rate_dilution": {}
+      }
+    },
+    "temporal_choice_default_action_and_commitment_biases": {
+      "present_oriented_choice": {
+        "present_bias": {},
+        "hyperbolic_discounting": {},
+        "immediacy_effect": {},
+        "delay_discounting": {},
+        "myopic_loss_aversion": {}
+      },
+      "inertia_delay_and_nonaction": {
+        "default_effect": {},
+        "inertia_bias": {},
+        "procrastination": {},
+        "inaction_inertia": {}
+      },
+      "escalation_and_commitment": {
+        "sunk_cost_fallacy": {},
+        "escalation_of_commitment": {},
+        "plan_continuation_bias": {},
+        "entrapment": {},
+        "effort_justification": {}
+      },
+      "control_and_protective_action": {
+        "illusion_of_control": {},
+        "action_bias": {},
+        "risk_compensation": {}
+      }
+    },
+    "social_influence_authority_affiliation_and_identity_biases": {
+      "conformity_and_consensus": {
+        "bandwagon_effect": {},
+        "social_proof": {},
+        "conformity_bias": {},
+        "false_consensus_effect": {},
+        "pluralistic_ignorance": {},
+        "groupthink": {}
+      },
+      "authority_deference_and_compliance": {
+        "authority_bias": {},
+        "obedience_to_authority": {},
+        "psychological_reactance": {}
+      },
+      "liking_similarity_reciprocity_and_scarcity": {
+        "liking_bias": {},
+        "similarity_attraction_effect": {},
+        "reciprocity_norm": {},
+        "scarcity_effect": {}
+      },
+      "group_identity_and_intergroup_judgment": {
+        "in_group_bias": {},
+        "in_group_favoritism": {},
+        "out_group_homogeneity_bias": {},
+        "stereotype_bias": {},
+        "identity_protective_cognition": {},
+        "hostile_media_effect": {},
+        "reactive_devaluation": {}
+      },
+      "responsibility_distribution_and_public_self": {
+        "diffusion_of_responsibility": {},
+        "bystander_effect": {},
+        "social_desirability_bias": {},
+        "evaluation_apprehension": {}
+      }
+    },
+    "self_assessment_attribution_and_metacognitive_biases": {
+      "confidence_calibration_errors": {
+        "overconfidence_effect": {},
+        "overestimation": {},
+        "overplacement": {},
+        "overprecision": {},
+        "dunning_kruger_effect": {},
+        "overclaiming_bias": {}
+      },
+      "explanatory_forecasting_and_projection_illusions": {
+        "illusion_of_explanatory_depth": {},
+        "planning_fallacy": {},
+        "projection_bias": {},
+        "affective_forecasting_error": {}
+      },
+      "attribution_biases": {
+        "fundamental_attribution_error": {},
+        "correspondence_bias": {},
+        "actor_observer_bias": {},
+        "self_serving_bias": {},
+        "defensive_attribution": {}
+      },
+      "reflective_blind_spots_and_closure": {
+        "bias_blind_spot": {},
+        "naive_realism": {},
+        "cognitive_miserliness": {},
+        "need_for_closure": {},
+        "outcome_bias": {}
+      },
+      "moral_self_regulation_distortions": {
+        "moral_licensing": {},
+        "self_licensing_effect": {}
+      }
+    },
+    "interface_choice_architecture_automation_and_warning_response_biases": {
+      "option_structure_and_order_effects": {
+        "position_bias": {},
+        "serial_position_effect": {},
+        "decoy_effect": {},
+        "compromise_effect": {},
+        "partition_dependence": {},
+        "choice_overload": {}
+      },
+      "automation_and_algorithm_reliance": {
+        "automation_bias": {},
+        "automation_complacency": {},
+        "algorithm_appreciation": {},
+        "algorithm_aversion": {},
+        "machine_heuristic": {}
+      },
+      "routine_interaction_and_alert_response": {
+        "habituation": {},
+        "capture_error": {},
+        "post_completion_error": {}
+      }
+    },
+    "privacy_disclosure_and_self_presentation_biases": {
+      "privacy_and_disclosure_tradeoffs": {
+        "privacy_paradox": {},
+        "third_person_effect": {}
+      },
+      "self_presentation_visibility_and_audience_misperception": {
+        "online_disinhibition_effect": {},
+        "spotlight_effect": {},
+        "illusion_of_transparency": {},
+        "false_uniqueness_effect": {}
+      }
+    },
+    "affective_evaluation_and_mood_congruent_judgment_biases": {
+      "incidental_affect_and_valuation": {
+        "affect_heuristic": {},
+        "misattribution_of_affect": {}
+      },
+      "mood_congruence_and_state_dependence": {
+        "mood_congruent_judgment": {},
+        "mood_congruent_memory": {},
+        "state_dependent_memory": {}
+      },
+      "hot_cold_gaps_and_state_projection": {
+        "hot_cold_empathy_gap": {},
+        "visceral_bias": {}
+      }
+    }
+  }
+}

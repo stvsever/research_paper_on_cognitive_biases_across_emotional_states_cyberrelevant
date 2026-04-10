@@ -1,0 +1,112 @@
+{
+  "attention_salience_and_signal_detection_biases": {
+    "V": 45,
+    "A": 75,
+    "C": -30,
+    "U": 60,
+    "S": 25,
+    "rationale": "High arousal (A) and uncertainty (U) significantly amplify susceptibility by narrowing attentional focus and increasing reliance on heuristic-based signal detection, leading to missed peripheral security cues. Positive valence (V) increases susceptibility by promoting global, less critical processing styles that overlook subtle anomalies in phishing or alerts. Conversely, high perceived control (C) attenuates bias by fostering systematic, top-down attentional allocation, whereas social orientation (S) can increase susceptibility through social engineering salience and 'other-focused' urgency.",
+    "family_key": "attention_salience_and_signal_detection_biases",
+    "family_name": "Attention Salience And Signal Detection Biases"
+  },
+  "trust_source_credibility_and_truth_judgment_biases": {
+    "V": 65,
+    "A": 75,
+    "C": -40,
+    "U": 85,
+    "S": 55,
+    "rationale": "Positive valence (V) and high arousal (A) promote heuristic System 1 processing, making users more susceptible to surface-level fluency and authority cues. High uncertainty (U) acts as a primary driver for these biases as individuals rely on 'truth proxies' like familiarity or appearance to resolve ambiguity in digital environments. Conversely, a high sense of control (C) encourages more analytical scrutiny of sources, while high social orientation (S) increases vulnerability to social engineering tactics that exploit perceived interpersonal trust and authority signals.",
+    "family_key": "trust_source_credibility_and_truth_judgment_biases",
+    "family_name": "Trust Source Credibility And Truth Judgment Biases"
+  },
+  "evidence_search_hypothesis_testing_and_belief_updating_biases": {
+    "V": 45,
+    "A": 65,
+    "C": -30,
+    "U": 75,
+    "S": 20,
+    "rationale": "Positive valence and high arousal both promote heuristic, System 1 processing, which increases reliance on confirmatory evidence and anchoring. High uncertainty significantly amplifies representativeness errors as individuals grasp for mental shortcuts to resolve ambiguity in threat assessments. Conversely, a high sense of control can slightly attenuate these biases by encouraging more deliberate, systematic evaluation of evidence, whereas social orientation increases susceptibility to social proof and trust-based belief updating errors.",
+    "family_key": "evidence_search_hypothesis_testing_and_belief_updating_biases",
+    "family_name": "Evidence Search Hypothesis Testing And Belief Updating Biases"
+  },
+  "memory_familiarity_and_source_monitoring_biases": {
+    "V": 65,
+    "A": 75,
+    "C": -40,
+    "U": 85,
+    "S": 55,
+    "rationale": "Positive valence (V) promotes heuristic processing and reliance on familiarity, while high arousal (A) narrows attentional focus, increasing source monitoring errors under cognitive load. High uncertainty (U) forces reliance on the availability heuristic as a proxy for probability, significantly amplifying susceptibility to memory-based illusions. Conversely, high perceived control (C) encourages more systematic, analytic verification of information origins, thereby attenuating the reliance on mere familiarity.",
+    "family_key": "memory_familiarity_and_source_monitoring_biases",
+    "family_name": "Memory Familiarity And Source Monitoring Biases"
+  },
+  "risk_probability_uncertainty_and_outcome_valuation_biases": {
+    "V": 65,
+    "A": 75,
+    "C": 40,
+    "U": 85,
+    "S": 30,
+    "rationale": "Positive valence (V) and high arousal (A) significantly amplify optimism bias and probability neglect by shifting processing from System 2 to heuristic-driven System 1, leading users to underestimate cyber risks. High uncertainty (U) acts as a primary catalyst for probability distortion, forcing reliance on mental shortcuts like the availability heuristic when evaluating threat likelihood. High perceived control (C) can paradoxically increase susceptibility via the 'illusion of control,' causing users to undervalue potential losses in security-critical decisions.",
+    "family_key": "risk_probability_uncertainty_and_outcome_valuation_biases",
+    "family_name": "Risk Probability Uncertainty And Outcome Valuation Biases"
+  },
+  "temporal_choice_default_action_and_commitment_biases": {
+    "V": 45,
+    "A": 70,
+    "C": -65,
+    "U": 85,
+    "S": 30,
+    "rationale": "High arousal and uncertainty significantly amplify present bias and inertia by triggering heuristic-based 'survival' processing, leading users to favor immediate relief over long-term security hygiene. Positive valence can increase susceptibility to the default effect through over-optimism and reduced critical scrutiny of existing settings. Conversely, high perceived control attenuates these biases by promoting System 2 engagement and the proactive reassessment of sunk costs or suboptimal default configurations.",
+    "family_key": "temporal_choice_default_action_and_commitment_biases",
+    "family_name": "Temporal Choice Default Action And Commitment Biases"
+  },
+  "social_influence_authority_affiliation_and_identity_biases": {
+    "V": 45,
+    "A": 65,
+    "C": -70,
+    "U": 85,
+    "S": 90,
+    "rationale": "High uncertainty (U) and low control (C) drive individuals toward heuristic reliance on authority and social proof to reduce cognitive load and perceived risk. Positive valence (V) increases susceptibility by fostering trust and reducing critical scrutiny of social cues, while high arousal (A) triggers peripheral processing that favors conformity over analytical verification. Social orientation (S) is the primary driver, as an 'other-focused' state heightens the salience of group identity and the perceived cost of non-compliance with authority figures.",
+    "family_key": "social_influence_authority_affiliation_and_identity_biases",
+    "family_name": "Social Influence Authority Affiliation And Identity Biases"
+  },
+  "self_assessment_attribution_and_metacognitive_biases": {
+    "V": 65,
+    "A": 40,
+    "C": 85,
+    "U": -70,
+    "S": 55,
+    "rationale": "Positive valence and high perceived control significantly amplify overconfidence and the Dunning-Kruger effect by promoting heuristic processing and a sense of invulnerability. Conversely, high uncertainty attenuates these biases by forcing a shift from System 1 to System 2 processing, prompting more cautious self-calibration. Social orientation increases susceptibility to the Fundamental Attribution Error, as users are more likely to attribute their own security lapses to situational factors while blaming others' failures on character flaws.",
+    "family_key": "self_assessment_attribution_and_metacognitive_biases",
+    "family_name": "Self Assessment Attribution And Metacognitive Biases"
+  },
+  "interface_choice_architecture_automation_and_warning_response_biases": {
+    "V": 45,
+    "A": 65,
+    "C": -30,
+    "U": 75,
+    "S": 20,
+    "rationale": "Positive valence (V) and high arousal (A) promote heuristic processing and over-reliance on automated defaults, significantly increasing susceptibility to automation bias and habituation. High uncertainty (U) drives users to offload cognitive load to the interface architecture, while high perceived control (C) encourages more critical, System 2 evaluation of security warnings. Social orientation (S) slightly increases susceptibility as users may prioritize social compliance or 'getting through' the interface to reach a social goal over technical security scrutiny.",
+    "family_key": "interface_choice_architecture_automation_and_warning_response_biases",
+    "family_name": "Interface Choice Architecture Automation And Warning Response Biases"
+  },
+  "privacy_disclosure_and_self_presentation_biases": {
+    "V": 65,
+    "A": 75,
+    "C": 40,
+    "U": -30,
+    "S": 85,
+    "rationale": "Positive valence and high arousal significantly amplify the online disinhibition effect and the privacy paradox by promoting impulsive sharing and reducing the cognitive scrutiny of risk. High perceived control paradoxically increases susceptibility by creating an 'illusion of control' that leads users to underestimate the systemic risks of data disclosure. Social orientation is a primary driver, as the desire for social validation and affiliation often overrides privacy concerns, leading to excessive self-presentation and organizational oversharing.",
+    "family_key": "privacy_disclosure_and_self_presentation_biases",
+    "family_name": "Privacy Disclosure And Self Presentation Biases"
+  },
+  "affective_evaluation_and_mood_congruent_judgment_biases": {
+    "V": 65,
+    "A": 85,
+    "C": -40,
+    "U": 75,
+    "S": 30,
+    "rationale": "Positive valence (V) significantly amplifies the affect heuristic by promoting heuristic System 1 processing and over-optimism regarding digital risks. High arousal (A) and uncertainty (U) act as primary catalysts, narrowing cognitive bandwidth and forcing reliance on immediate affective cues rather than analytical verification of security protocols. Conversely, high perceived control (C) attenuates these biases by fostering a sense of agency that encourages more deliberate, systematic evaluation of cyber threats.",
+    "family_key": "affective_evaluation_and_mood_congruent_judgment_biases",
+    "family_name": "Affective Evaluation And Mood Congruent Judgment Biases"
+  }
+}

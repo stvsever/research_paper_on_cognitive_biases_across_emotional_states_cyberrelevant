@@ -1,0 +1,202 @@
+{
+  "ecbss_mean": 368.7599847850894,
+  "ecbss_std": 472.77414158382544,
+  "ecbss_median": 450.0,
+  "pct_amplifying": 77.63408139977179,
+  "pct_attenuating": 22.365918600228223,
+  "pct_neutral": 0.0,
+  "top_amplifying": [
+    {
+      "emotion": "hysterical",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 985
+    },
+    {
+      "emotion": "enraged",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "terrified",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "ecstatic",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "hysterical",
+      "family": "privacy_disclosure_and_self_presentation_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "raw",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "panicked",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "euphoric",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 920
+    },
+    {
+      "emotion": "hateful",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 875
+    },
+    {
+      "emotion": "overwhelmed",
+      "family": "affective_evaluation_and_mood_congruent_judgment_biases",
+      "ecbss": 875
+    }
+  ],
+  "top_attenuating": [
+    {
+      "emotion": "betrayed",
+      "family": "trust_source_credibility_and_truth_judgment_biases",
+      "ecbss": -750
+    },
+    {
+      "emotion": "mistrustful",
+      "family": "trust_source_credibility_and_truth_judgment_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "mistrustful",
+      "family": "social_influence_authority_affiliation_and_identity_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "distrustful",
+      "family": "trust_source_credibility_and_truth_judgment_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "suspicious",
+      "family": "privacy_disclosure_and_self_presentation_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "distrustful",
+      "family": "privacy_disclosure_and_self_presentation_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "suspicious",
+      "family": "trust_source_credibility_and_truth_judgment_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "distrustful",
+      "family": "social_influence_authority_affiliation_and_identity_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "paranoid",
+      "family": "privacy_disclosure_and_self_presentation_biases",
+      "ecbss": -850
+    },
+    {
+      "emotion": "mistrustful",
+      "family": "privacy_disclosure_and_self_presentation_biases",
+      "ecbss": -850
+    }
+  ],
+  "cluster_mean_ecbss": {
+    "affective_evaluation_and_mood_congruent_judgment_biases": {
+      "0": 843.4375,
+      "1": 698.8636363636364,
+      "2": 732.3404255319149,
+      "3": 558.5294117647059,
+      "4": 764.1891891891892,
+      "5": 558.4615384615385
+    },
+    "attention_salience_and_signal_detection_biases": {
+      "0": 515.0,
+      "1": 628.1818181818181,
+      "2": 392.3404255319149,
+      "3": 191.47058823529412,
+      "4": 469.05405405405406,
+      "5": 178.71794871794873
+    },
+    "evidence_search_hypothesis_testing_and_belief_updating_biases": {
+      "0": 740.625,
+      "1": 459.92424242424244,
+      "2": 284.6808510638298,
+      "3": -51.470588235294116,
+      "4": 534.1891891891892,
+      "5": 295.0
+    },
+    "interface_choice_architecture_automation_and_warning_response_biases": {
+      "0": 553.125,
+      "1": 472.3484848484849,
+      "2": 314.6808510638298,
+      "3": 225.44117647058823,
+      "4": 547.027027027027,
+      "5": 307.94871794871796
+    },
+    "memory_familiarity_and_source_monitoring_biases": {
+      "0": 356.25,
+      "1": 446.1363636363636,
+      "2": 239.7872340425532,
+      "3": 15.882352941176471,
+      "4": 523.1081081081081,
+      "5": 364.4871794871795
+    },
+    "privacy_disclosure_and_self_presentation_biases": {
+      "0": 662.5,
+      "1": 129.16666666666666,
+      "2": 225.10638297872342,
+      "3": 159.85294117647058,
+      "4": 697.1621621621622,
+      "5": 447.94871794871796
+    },
+    "risk_probability_uncertainty_and_outcome_valuation_biases": {
+      "0": 590.0,
+      "1": 532.8787878787879,
+      "2": 353.6170212765957,
+      "3": 79.41176470588235,
+      "4": 648.6486486486486,
+      "5": 346.9230769230769
+    },
+    "self_assessment_attribution_and_metacognitive_biases": {
+      "0": 793.125,
+      "1": -240.6060606060606,
+      "2": -32.765957446808514,
+      "3": -381.47058823529414,
+      "4": 612.972972972973,
+      "5": 150.51282051282053
+    },
+    "social_influence_authority_affiliation_and_identity_biases": {
+      "0": -379.375,
+      "1": 624.469696969697,
+      "2": 361.17021276595744,
+      "3": 98.82352941176471,
+      "4": 573.5135135135135,
+      "5": 367.43589743589746
+    },
+    "temporal_choice_default_action_and_commitment_biases": {
+      "0": 255.625,
+      "1": 578.939393939394,
+      "2": 371.70212765957444,
+      "3": 412.05882352941177,
+      "4": 391.6216216216216,
+      "5": 154.87179487179486
+    },
+    "trust_source_credibility_and_truth_judgment_biases": {
+      "0": -127.5,
+      "1": 428.8636363636364,
+      "2": 128.93617021276594,
+      "3": -82.3529411764706,
+      "4": 638.6486486486486,
+      "5": 457.43589743589746
+    }
+  }
+}
